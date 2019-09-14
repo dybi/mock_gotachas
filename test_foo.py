@@ -8,4 +8,4 @@ class TestFoo:
         mocked_bar = Mock(spec=Bar)
         foo = Foo(mocked_bar)
         foo.run()
-        mocked_bar.some_method.assert_called_once_with()
+        mocked_bar.some_method_renamed.assert_called_once_with()
