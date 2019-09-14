@@ -1,4 +1,4 @@
-from unittest.mock import Mock
+from unittest.mock import Mock, create_autospec
 
 from foo import Foo, Bar
 
