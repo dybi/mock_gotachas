@@ -1,5 +1,5 @@
 class Bar:
-    def some_method_renamed(self):
+    def some_method_renamed(self, value):
         print("Called some_method")
 
     def add_one(self, value: int) -> int:
