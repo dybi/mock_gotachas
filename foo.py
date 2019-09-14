@@ -11,7 +11,7 @@ class Foo:
         self._bar = bar
 
     def run(self):
-        self._bar.some_method_renamed()
+        self._bar.some_method_renamed(7)
 
     def get_increased_value(self, value):
         return self._bar.add_one(value)
